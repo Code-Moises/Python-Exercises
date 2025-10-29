@@ -9,4 +9,9 @@ def is_weekend(day):
         case _:
             return False
 
-print(is_weekend("Monday"))
+def main():
+    print(is_weekend("Monday"))
+
+
+if __name__ == '__main__':
+    main()
